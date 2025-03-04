@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Запуск тестов Go
-                sh 'go test .'
+                sh 'main_test.go'
             }
         }
 
